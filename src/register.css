@@ -1,0 +1,66 @@
+/* .card{
+    margin: 10% ;
+    border:  2px solid black,
+} */
+
+.registerTable{
+    background-color: rgb(162, 148, 148);
+    height: 200px; 
+    position: absolute;
+    top: 36%;
+    left: 36.9%;
+    padding: 25px;
+    border-radius: 20px;
+    color: white;
+    column-gap: 5px;
+    
+}
+.registerTable th{
+    color: rgb(75, 75, 75);
+    padding-right: 23px;
+}
+
+.registerTable input :placeholder-shown{
+    color: white;
+}
+
+.s1{
+    position: relative;
+    padding-top: 140px;
+    height: 75vh;
+}
+.s1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_437743.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.registerButton{
+    position: relative; 
+    cursor: pointer;
+    background: #363b41;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    width: 10%;
+    margin-top: 335px;
+}
+.registerButton:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.3);
+}
+.registerButton:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0, 86, 179, 0.3);
+}
